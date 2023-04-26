@@ -95,7 +95,7 @@ class Game:
                 if event.type == pg.MOUSEBUTTONDOWN:
                     if (885 <= mouse[0] <= 1035) and (490 <= mouse[1] <= 590):
                         self.playing = "Play"
-                        self.timer = 1000
+                        self.timer = 3600
                     if (885 <= mouse[0] <= 1035) and (718 <= mouse[1] <= 850):
                         self.playing = "High Score"
 

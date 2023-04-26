@@ -84,7 +84,7 @@ class Game:
 
     def menu(self):
         while self.playing == "Menu":
-            self.scorescore = 0
+            self.score = 0
             self.screen.blit(background, (0, 0)) #fills the screen with black is to be changed at a later date
             buttons.menuPlayButton(self)
             buttons.highScoreBoardButton(self)
